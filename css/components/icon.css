@@ -1,0 +1,16 @@
+ul {
+  text-decoration: none;
+  text-align: center;
+}
+
+li {
+  text-decoration: none;
+  text-align: center;
+}
+
+.icon {
+  display: inline-block;
+  font-size: 30px;
+  color: #1EDD88;
+  text-decoration: none;
+}
