@@ -29,7 +29,15 @@ body {
   color:white;
 }
 
+.surprise {
+  opacity: 0;
+  padding: 50px;
+  font-size: 150px;
+}
 
+.surprise:hover {
+  opacity: 1;
+}
 
 
 .banner {
