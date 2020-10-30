@@ -2,23 +2,15 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>My landing page</title>
+  <title>My scary landing page</title>
   <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
   <!-- We need this line below for responsiveness! -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-  <!-- code a Hero / Banner section -->
-  <div class="banner">
-    <div class="container">
-      <h1>I can help you with your website!</h1>
-      <p>Improve your presence online with a professional-looking website (made by me)</p>
-      <a href="https://www.linkedin.com/in/pepebenitez/" target="blank" class="btn">Learn more about how cool I am</a>
-    </div>
-  </div>
 
-  <!-- code a "How it works" section -->
+<body>
+  <!-- code a "How it works" section
   <div class="container">
     <h2 class="text-center">Why should you hire me to make your website?</h2>
     <div class="cards">
@@ -39,28 +31,110 @@
       </div>
     </div>
   </div>
+  -->
 
-  <!-- code a footer -->
+
+
+  <div class="banner">
+    <img src="images/banner_festival.png" alt="" class="main-image">
+  </div>
+
+  <div class="secondary-banner">
+    <img src="images/keep_scrolling_if.png" alt="" class="secondary-image">
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="card">
+        <h2>Stage 1</h2>
+          <ul>
+            <li>ACDC</li>
+            <li>Muse</li>
+            <li>Marylin Monson</li>
+            <li>Iron Maiden</li>
+          </ul>
+      </div>
+
+      <div class="col-6">
+        <p class="surprise">👻</p>
+      </div>
+
+      <div class="bats">
+        <img src="images/bat-1.png" alt="" class="bats">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="card">
+        <h2>Stage 2</h2>
+          <ul>
+            <li>ACDC</li>
+            <li>Muse</li>
+            <li>Marylin Monson</li>
+            <li>Iron Maiden</li>
+          </ul>
+      </div>
+
+      <div class="col-6">
+        <p class="surprise">👻</p>
+      </div>
+
+      <div class="bat">
+        <img src="images/bat-1.png" alt="" class="bats">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="card">
+        <h2>Stage 3</h2>
+          <ul>
+            <li>ACDC</li>
+            <li>Muse</li>
+            <li>Marylin Monson</li>
+            <li>Iron Maiden</li>
+          </ul>
+      </div>
+
+      <div class="col-6">
+        <p class="surprise">👻</p>
+      </div>
+
+      <div class="bats">
+        <img src="images/bat-1.png" alt="" class="bats">
+      </div>
+    </div>
+  </div>
+
   <div class="footer">
-    <ul class="social-media">
-      <li>
-        <a href="https://www.linkedin.com/in/pepebenitez/" target="_blank" class="icon">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://github.com/elpepebenitez" target="_blank" class="icon">
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      <li>
-        <a href="https://twitter.com/elpepebenitez" target="_blank" class="icon">
-          <i class="fab fa-twitter-square"></i>
-        </a>
-      </li>
-    </ul>
-    <p>Oh you made it this far? I like your sense of adventure you cheeky person</p>
-    <p>Get in touch!</p>
+    <form action="#">
+      <h2 class="text-center mb-5">Create your account</h2>
+      <div class="form-row">
+        <div class="col-6 form-group">
+          <label for="first-name">Your first name</label>
+          <input type="text" class="form-control" id="first-name" placeholder="Bob">
+        </div>
+        <div class="col-6 form-group">
+          <label for="last-name">Your last name</label>
+          <input type="text" class="form-control" id="last-name" placeholder="Sponge">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="email">Your email</label>
+        <input type="email" class="form-control" id="email" placeholder="bob@gmail.com">
+      </div>
+      </div>
+      <input type="submit" value="Sign up" class="btn btn-primary btn-lg w-100">
+    </form>
   </div>
 </body>
 </html>
